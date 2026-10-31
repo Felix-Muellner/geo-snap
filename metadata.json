@@ -1,0 +1,6 @@
+{
+  "name": "GeoSnap",
+  "description": "Extract EXIF GPS coordinates from JPEG and HEIC photos to generate, preview, save, and share 1080x1080 OpenStreetMap location cards with reverse-geocoded captions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

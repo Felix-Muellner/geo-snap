@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GeoSnap</string>
+    <string name="app_subtitle">EXIF GPS to 1080×1080 OpenStreetMap Card</string>
+    <string name="pick_photo_gallery">Pick Photo from Gallery</string>
+    <string name="pick_photo_file">Browse Original File (JPEG / HEIC)</string>
+    <string name="supported_formats_hint">Supports JPEG &amp; HEIC • Original photo is never modified</string>
+    <string name="zoom_level_title">Map Zoom Level</string>
+    <string name="zoom_street_level">Street level</string>
+    <string name="zoom_city">City</string>
+    <string name="zoom_custom">Custom</string>
+    <string name="zoom_value_label">Zoom %1$d</string>
+    <string name="generate_map_button">Regenerate Map</string>
+    <string name="save_map_to_gallery">Save map to gallery</string>
+    <string name="share_map">Share</string>
+    <string name="preview_section_title">Side-by-Side Preview</string>
+    <string name="preview_original_label">Original Photo</string>
+    <string name="preview_map_label">Generated Map (1080×1080 JPEG)</string>
+    <string name="no_gps_title">No GPS Data Found in Photo</string>
+    <string name="no_gps_message">This photo does not contain EXIF GPS latitude/longitude coordinates. Map generation stopped. Please pick a geotagged JPEG or HEIC photo.</string>
+    <string name="permission_media_location_rationale">ACCESS_MEDIA_LOCATION is granted to read unredacted EXIF GPS coordinates from the original photo file.</string>
+    <string name="permission_media_location_denied">ACCESS_MEDIA_LOCATION was not granted; Android may strip GPS tags from gallery photos unless granted or opened via Original File picker.</string>
+    <string name="seed_sample_title">Testing in an Emulator?</string>
+    <string name="seed_sample_description">Create a real JPEG photo with embedded EXIF GPS tags in your device Gallery so you can pick and test it immediately.</string>
+    <string name="seed_sample_vienna">Add Vienna Geotagged Photo to Gallery</string>
+    <string name="seed_sample_tokyo">Add Tokyo Geotagged Photo to Gallery</string>
+    <string name="status_extracting_exif">Reading original file &amp; EXIF GPS data…</string>
+    <string name="status_rendering_map">Rendering 1080×1080 OpenStreetMap &amp; Nominatim caption…</string>
+    <string name="saved_to_gallery_success">Saved 1080×1080 JPEG map to Gallery!</string>
+    <string name="close_fullscreen">Close full-screen preview</string>
+</resources>
